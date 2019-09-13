@@ -1,0 +1,23 @@
+/* Place your extensions here to make migration to a new release easier. */
+
+.centralizar-lista-mensagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .p-dialog .p-dialog-titlebar {
+    font-weight: bold;
+}
+
+.alinhar-direita-botao-mensagens-enviadas {
+    /*width: 16% !important;*/
+    margin-left: 83% !important;
+}
+
+@media (max-width: 400px) {
+    .alinhar-direita-botao-mensagens-enviadas {
+        margin-left: 48% !important;
+        white-space: nowrap;
+    }
+}
